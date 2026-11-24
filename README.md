@@ -10,7 +10,6 @@ portfolio/
 ├── css/style.css   # all styling (light and dark themes)
 ├── js/script.js    # terminal, animations, scroll effects
 ├── README.md
-├── deploy.sh       # one-step upload to GitHub
 └── .gitignore
 ```
 
@@ -28,11 +27,3 @@ Open `index.html` in a browser, or run a local server:
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
-
-## Deploy with GitHub Pages
-1. Push this folder to a GitHub repository.
-2. Go to Settings > Pages.
-3. Under "Build and deployment", set Source to "Deploy from a branch", Branch to `main` and folder to `/ (root)`, then Save.
-4. Your site will be live at `https://<username>.github.io/<repository>/`.
-
-Tip: name the repository `<username>.github.io` to get the shorter address `https://<username>.github.io/`.
